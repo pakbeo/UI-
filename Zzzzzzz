@@ -3,5 +3,5 @@ local config = getgenv().NamFarmConfig
 if config.Language == "EN" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/pakbeo/enveryba/refs/heads/main/main.lua"))()
 else
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/pakbeo/RHubYBA/refs/heads/main/Main.lua"))()"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pakbeo/RHubYBA/refs/heads/main/Main.lua"))()
 end

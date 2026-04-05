@@ -1,0 +1,11 @@
+local config = getgenv().NamFarmConfig
+
+if config.Language == "EN" then
+    -- Tải bản Tiếng Anh
+    -- DEV NOTE: Thay link dưới bằng link file Tiếng Anh (đã mã hóa) của bạn trên GitHub
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TenCuaBan/NamFarmHub/main/source_en.lua"))()
+else
+    -- Mặc định tải bản Tiếng Việt
+    -- DEV NOTE: Thay link dưới bằng link file Tiếng Việt (đã mã hóa) của bạn trên GitHub
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TenCuaBan/NamFarmHub/main/source_vn.lua"))()
+end
